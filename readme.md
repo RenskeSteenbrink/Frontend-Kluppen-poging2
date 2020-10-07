@@ -68,7 +68,11 @@ De gekozen website is eigenlijk heel erg saai. Alle complexere elementen en anim
 Ja gaat goed, naar mijn idee is dit eigenlijk al af en naast de dingen die ik nu heb opgeschreven zijn er ook geen problemen meer. Kom maar op met dat cijfer.
 
 **Screenshot(s):**
+![Homepagina](images/Procescaptures/homepaginavoortgang3.png)
 
+![Over ons Pagina](images/Procescaptures/overonspaginavoortgang3.png)
+
+![Aanmeld pagina](images/Procescaptures/aanmelden.png)
 
 ### Agenda voor meeting
 - hoe ga ik op de semantische manier uit mijn form terug naar de homepagina.
@@ -84,9 +88,9 @@ Ja gaat goed, naar mijn idee is dit eigenlijk al af en naast de dingen die ik nu
 Ja gaat heel goed eigenlijk, mijn pagina ziet er stukje bij beetje mooier uit en ook het responsive gaat steeds soepeler. Javascript laat ik even voorwat het is. maar ik ben trots op hoe het er nu uitziet en hoe dingen me lukken.
 
 **Screenshot(s):**
-![Homepagina](images/Procescaptures/images/Procescaptures/Voortganghome2.png)
+![Homepagina](images/Procescaptures/Voortganghome2.png)
 
-![Over ons Pagina](images/Procescaptures/images/Procescaptures/Voorgangvanons2.png)
+![Over ons Pagina](images/Procescaptures/Voorgangvanons2.png)
 
 ### Agenda voor meeting
 - Bij mijn footer krijg ik mijn grid niet naar 4 colommen bij @media min 1080 en ik snap niet waarom?
