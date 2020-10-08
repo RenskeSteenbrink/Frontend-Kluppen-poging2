@@ -1,20 +1,16 @@
 // JavaScript Document
 
-var knoppen = document.QuerySelector('.whiteborderbutton');
+var navElement = document.querySelector("header nav"); // navigatie element
+var hamburgerMenuButton = document.querySelector("header nav a"); // a tag voor hamburger menu
+var burgerMenu = document.querySelector("header nav img"); // hamburger menu icon
 
-button.AddEventlistener('click' , handleEvent , false);
-function handleEvent() {
-    console.log ('ik werk');
-}
+hamburgerMenuButton.addEventListener("click", toggleMenu); // als er op hamburgerMenu icon wordt geklikt, voer 'toggleMenu' uit
 
-// dit is uit de opdracht van mediaqueries en zag er uit alsof ik hier ook wat mee kon
-var burgerMenu = document.querySelector("header nav img");
-
-burgerMenu.addEventListener("click", toggleMenu);
-
-function toggleMenu(event) {
-  deNav = event.target.parentNode;
-  deNav.classList.toggle("toonMenu");
-}
-
-// haha wat een drama, Renske aan de JAVA
+function toggleMenu() {​​​​
+   navElement.classList.toggle("showMenu");
+   if (navElement.classList.contains("showMenu")) {​​​​ // check of showMenu aan staat bij navigatie element
+       burgerMenu.src = "images/ICONS/clear-24px.svg"; // als showMenu wel aan staat dan moet hamburgerMenu icon kruisje zijn
+   }​​​​ else {​​​​
+       burgerMenu.src = "images/ICONS/menu-24px.svg"; // als showMenu niet aan staat dan moet hamburgerMenu icon hamburger zijn
+   }​​​​
+}​​​​
