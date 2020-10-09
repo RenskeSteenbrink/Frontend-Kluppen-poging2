@@ -14,7 +14,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 192602-FDMCI-2000FED116-DMCI-CMD-2021/FED%2020-21%20-%20Blok%201%20-%20Oefening%20toegankelijkheid.pdf
 6. MediaQueries: https://dlo.mijnhva.nl/content/enforced/192602-FDMCI-2000FED116-DMCI-CMD-2021/FED%2020-21%20-%20Blok%201%20-%20Oefening%20media%20queries.pdf
 7. This guy, Jelmer Overeem.
-![Jelmer](images/Procescaptures/JelmerOvereem)
+![Jelmer](images/Procescaptures/JelmerOvereem.png)
 
 + Alle bijbehorende oefeningen van codepen
 
@@ -75,7 +75,7 @@ Ja gaat goed, naar mijn idee is dit eigenlijk al af en naast de dingen die ik nu
 ![Aanmeld pagina](images/Procescaptures/aanmelden.png)
 
 ### Agenda voor meeting
-- hoe ga ik op de semantische manier uit mijn form terug naar de homepagina.
+- hoe ga ik op de semantische manier uit mijn form terug naar de homepagina. / met Jelmer over gehad en hij zegt dat je er semantisch a's van moet maken. is dat ook een must? want ik ben heel bang dat ik alles weer verpest.
 - Wat zou ik nog kunnen toevoegen om het beter te maken? 
 - jij had het over met je spatiebalk door de site heengaan. Hoe doe jij dat? mij lukt het niet... ik kan niet eens in mijn scherm komen. hij blijft andere dingen oplezen.
 
