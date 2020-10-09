@@ -8,9 +8,7 @@ body {
   margin: 0 auto;
 }
 
-section {
-  margin: 1rem 0;
-}
+
 /*******************************/
 /* LAYOUT VAN DE NAVIGATIEBALK */
 /*******************************/
@@ -400,11 +398,17 @@ section div article h4,h3,p {
     text-align: center;
     color: #ffffff;
     text-shadow: .009em .009em .08em #666666;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 800;
     width: 80%;
     margin: 1.1em auto;  
   } 
+}
+
+@media (min-width: 910px) {
+  .html section:nth-child(3) p {
+    font-size: 2em;
+  }
 }
 /* -----------------------------*/
 /*HIER BEGINT DE OVER ONS PAGINA*/
@@ -476,12 +480,23 @@ section div article h4,h3,p {
     margin: 4em auto;
   }
 }
+
+@media (min-width: 1080px) {
+  .overOns section:nth-child(2) {
+    max-width: 90%;
+  }
+}
 /******************************/
 /* MAGAZINE&VERBINDEN SECTION */
 /******************************/
+.overOns section:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
 .overOns section:nth-child(3) article {
   text-align: center;
-  margin: 0;
 }
 .overOns section:nth-child(3) article h4,p {
   margin: 0.1em auto;
@@ -495,14 +510,23 @@ section div article h4,h3,p {
 
 @media (min-width: 415px) {
   .overOns section:nth-child(3) {
-    display: flex;
     max-width: 90%;
     margin: 2em auto;
   }
   .overOns section:nth-child(3) article {
-    margin: auto 1em;
+    margin: 1em auto;
+
   }
-  /* hier moet de img nog dezelfde grote worden, hoe doe je dat? */ 
+}
+@media (min-width: 580px) {
+  .overOns section:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .overOns section:nth-child(3) article {
+    margin: 1em auto;
+  }
 }
 
 @media (min-width: 1080px) {
