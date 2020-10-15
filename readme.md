@@ -81,6 +81,21 @@ Ja gaat goed, naar mijn idee is dit eigenlijk al af en naast de dingen die ik nu
 
 ### Verslag van meeting
 
+Het gesprek ging over het algemeen goed, eerste keer dat Janno mijn code heeft bekeken dus natuurlijk waren er wat kritische opmerkingen, waaronder de volgende:
+
+- Op lees verder kan ik een id toevoegen zodat hij ook daadwerkelijk naar de 2e section gaat.
+- Nog even kritisch kijken naar de footer, deze mag meer ruimte hebben, de achtergrond kleur is nog steeds een beetje vies en de text mag links worden uitgelijnt.
+- De knop in de footer mag onderscheidender zijn en er mag een curser pointer op de knop
+- Meer consistentie door de gehele website
+- een action op de form zetten die naar index.html navigeert.
+- form elementen verplicht maken
+- de artikelen op mobiel toch iets minder breed maken
+- Alle ontwerpkeuzes goed onderbouwen! waarom knoppen die kleur en die animatie, waarom de footer zoals ik die heb, waarom de volledige hamburger uitklap.
+
+Het gedeelte met de spatiebalk werkt dus daar hoef ik geen zorgen meer om te maken.
+
+Hier ga ik mee aan de slag om vervolgens mijn beoordeling te rocken!
+
 
 ## Voortgang 2 (week 5)
 
