@@ -53,7 +53,6 @@ body {
   header button:nth-child(1){
     background-color: #ffb413;
     color: #000000;
-    width: 50%;
     height: 3em;
     font-size: 0.7em;
     box-shadow: #181818c0 0.1em 0.1em;
@@ -129,6 +128,7 @@ body {
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .overOns button {
@@ -142,12 +142,9 @@ body {
   font-weight: 700;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
 }
 
-
-.html section article {
-  width: 100vw;
-}
 
 @keyframes buttons {
   0% {
@@ -157,6 +154,7 @@ body {
   100% {
     transform: scale(1.05);
     background: #ffb413;
+    color: #000000;
   }
 }
 button:hover { 
@@ -237,7 +235,7 @@ a:active {
 /* LANDINGS SECTION */
 /********************/
 
-.html section:first-of-type {
+.html section:nth-child(1) {
   background-image: url("../images/IndeBallon.png");
   background-size: cover;
   height: 80vh;
@@ -301,7 +299,9 @@ section a:first-of-type {
 /***********************************/
 /* ONTDEK + WAT BIEDT KLUP SECTION */
 /***********************************/
-
+.html section:nth-child(2),section:nth-child(4) {
+  margin: 2em;
+}
 .html section div {
   display: flex;
   justify-content: space-around;
@@ -326,7 +326,13 @@ section div article h4,h3,p {
 
 .html button:nth-child(3) {
   display: block; 
-  margin: 1em/*Boven en onder 1em*/ auto/*links en rechts evenveel, dus in het midden*/;
+  margin: 2em/*Boven en onder 1em*/ auto/*links en rechts evenveel, dus in het midden*/;
+}
+
+@media (max-width: 599px) {
+  .html article {
+    max-width: 80%;
+  }
 }
 
 /*Boven mobiel*/
@@ -343,13 +349,19 @@ section div article h4,h3,p {
 
 @media (min-width: 900px){
   .html article {
-    max-width: 300px;
+    max-width: 250px;
   }
-}
-
   .html section article {
     width: 100vw;
   }
+}
+@media (min-width: 1150px){
+  .html section:nth-child(2),section:nth-child(4) {
+    max-width: 70%;
+    margin: auto;
+  }
+}
+  
  
   @keyframes ontdek {
     0% {
@@ -429,13 +441,14 @@ section div article h4,h3,p {
   color: #ffffff;
   font-size: 3em;
   padding: 1em;
-  margin: auto 1em
+  margin: auto;
+  text-shadow: .009em .009em .08em #161616;
 }
 
 .overOns section:nth-child(1) button  {
   border: .2em solid #ffffff;
   color: white;
-  margin: auto 7em;
+  box-shadow: .09em .09em .08em #161616;
 }
 
 @media (min-width: 415px) {
@@ -680,12 +693,10 @@ input:focus {
 /******************/
 
 footer {
-  background-color: #d6d6d6;
+  background-color: #f6f6f6;
   padding-top: 1em; padding-bottom: 1em;
 }
 
-/* waarom is hij er wel op tablet en desktop, maar niet op mobiel. 
-waarom is uberhaupt mijn hele footer stom aan het doen op mobiel*/
 .logo {
   background-image:url("../images/Footer/Klup_Logo_Tekst_Vierkant.png");
   background-size: cover;
@@ -705,16 +716,18 @@ footer div ul li p:first-child {
   padding-top: 0;
 }
 
-footer button {
-  background-color: #0065bb;
+.html footer button {
+  background-color: #ffb413;
+  color: #000000;
   padding: 1.1em;
-  border-radius: .5em;
   border: none;
+  box-shadow: .09em .09em .08em #161616;
+}
 
-  color: white;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
+.overOns footer button {
+  background-color: #ffb413;
+  border: none;
+  
 }
 
 footer div ul li {
@@ -744,7 +757,7 @@ footer ul {
 }
 
 /* Tablet */
-@media (min-width: 415px) {
+@media (min-width: 575px) {
   footer div {
     display: grid;
     margin: 0 auto;
@@ -765,6 +778,35 @@ footer ul {
     order: 4;
     grid-column: span 3;
   }
+
+  /* Het blokje met logo en knop centreren*/
+  footer div ul li{
+    justify-content: flex-start;
+    margin-left: 2em;
+    max-width: 80%;
+  }
+  footer div ul:nth-child(1) {
+    display: block;
+    margin: auto;
+    margin-left: 2em;
+  }
+  footer div ul:nth-child(1) li:nth-child(1) {
+    margin-left: 2.5em;
+  }
+  footer div ul:nth-child(1) p{
+    padding: 1em 0;
+  }
+
+  footer ul:nth-child(4) {
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+  footer ul:nth-child(4) li {
+    margin-left: 0;
+  }
+
 }
 
 /* LAPTOP */
@@ -772,10 +814,18 @@ footer ul {
   footer div{
     display: grid;
     width: 90%;
-    grid-template-columns: 1fr 1fr 1fr 1fr; /* normaal stond hier nog 1fr*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
   }
+
   footer div ul:nth-child(4) {
     grid-column: auto;
+  }
+  footer ul:nth-child(4) p {
+    width: 100%;
+    text-align: left;
+  }
+  Footer ul:nth-child(4) img {
+    margin: 0 2em;
   }
 }
