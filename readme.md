@@ -60,6 +60,9 @@ Ik ben bezig geweest met heel veel uitrprobeersels en heb hierin en in de stijl 
 2. De cijfers in de 'ontdeksectie' zijn blauw op de officiele pagina, echter vind ik dit afleiden, niet mooi en doet het mij denken dat je er op kunt klikken, wat niet zo is. Ja ik heb de artikelen geanimeerd dus het lijkt alsnog of je er op kunt klikken, maar de animatie geeft het extra aandacht, terwijl een andere kleur je alleen af leidt van de functie.
 3. De footer is anders ingedeelt dan op de officiele pagina. bij mobiel en de normale pagina staan de elementen in de gebruikelijke volgorde, maar daar tussenin staat het logo en de knop in het midden. De hele website is gecentreerd, aangezien het grid 3 kolommen heeft vond ik het logischer de CTA in het midden te plaatsen aangezien je ogen hier landen. 
 Ook heb ik de footer op mobiel gecentreerd gehouden, het is misplaatst om alleen de footer links uit te lijnen als derest gecentreerd is.
+4. Ik heb mijn website door mijn vriendengroep laten bekijken en heb hieruit de volgende feedback meegenomen:
+- meer witruimtes om de sections heen.
+- 
 
 OVER ONS
 4. als je de screenshots van week 1 bekijkt en de huidige pagina, is er een hoop veranderd. Ik heb ervoor gekozen een combinatie van de 2 te doen. Zo heb ik gekozen voor een mooie foto achter de eerste section, maar heb ik de foto bij het klupverhaal weggelaten in bescherming van een overvloed aan beeld.
@@ -71,8 +74,7 @@ OVER ONS
 1. ik had het idee om op mobiel alleen de afbeeldingen neer te zetten en dan met een hover de text zichtbaar te maken, naast dat het na veel pgingen niet gelukt is, besefte ik me dat je op een mobiel niet kan hoveren en het daarom ook niet echt nut had. 
 2. De website is bedoelt om informatie af te geven, maar ook om sfeer te laten zien. Ik heb getracht de afbeelding in de eerste sectie te laten sliden tussen 3 foto's. ik heb hiervoor tutorials gelezen en ben bezig geweest met een codepen, maar helaas tevergeefs. het was me zo complex dat ik ervoor gekozen heb om me te focussen op de belangrijkere dingen.
 3. over belangrijk gesproken, het hamburger menu op mobiel, een van mijn gelukte uitprobeersels. ik ben bezig geweest met het werkend maken van dit menu en heb ook hier een codepen voor opgezet, helaas is het mij met verschillende tips en video's niet gelukt en heb ik de hulp van jelmer moeten inschakelen die het laatste zetje gaf. alle elementen ook werkend krijgen.
-4. de 'Lees verder' tekst zou uit suggestie van jou eigenlijk naar de volgende sectie navigeren, ondanks ik internet heb afgezocht, code heb geprobeerd te vertalen naar mijn website. is het me niet gelukt om dit werkend te krijgen. Wel leuk dat toen ik dit had geprobeerd alle dingen die wel werkten in mijn website toen ook zijn uitgevallen. 
-dat krijg je van proberen denk ik dan maar.
+4. De 'Lees verder' tekst zou uit suggestie van jou eigenlijk naar de volgende sectie navigeren, ondanks ik internet heb afgezocht, code heb geprobeerd te vertalen naar mijn website. is het me niet gelukt om dit werkend te krijgen. Tot ik vrienden van mij om advies heb gevraagd en het ineens heel makkelijk was. Dit zijn van die momenten dat je jezelf wel kan slaan... 
 
 Al met al heb ik een hoop geprobeerd, heb ik een hoop veranderd, zit er een aantal uren in dat ik nog nooit in een vak heb gestoken, zitten er zweet en tranen in (bloed sla ik over), snap ik de beginselen van programmeren en ondanks dat ik stiekem momentjes heb genoten van het schrijven van code, weet ik niet of het iets voor mij is, sorry Janno, je hebt het geprobeerd, je enthousiasme is echt heel aanstekelijk, maar mentaal denk ik niet sterk genoeg te zijn voor dit vak en ben ik bang dat mijn laptop binnen een paar dagen vliegles krijgt...
 
@@ -89,7 +91,7 @@ GOED
 
 LASTIG
 - Aanpasbaarheid, steeds als ik 1 ding heb aangepast gaat alles weer kapot.
-- Het vinden van fouten. Ik kan mijn problemen nog niet zelfstandig oplossen.
+- Het vinden van fouten. Ik kan mijn problemen nog niet zelfstandig oplossen. toch ook weer een goede kant dat ik om hulp heb gevraagd.
 - Er waren momenten dat je denkt de theorie te weten en dan weer naar je eigen code kijkt en het gewoon onmogelijk kan toepassen. In dat geval had persoonlijk contact heel veel geholpen, maar die heb je nu natuurlijk niet, dus dat is gewoon erg lastig.
 
 **Screenshot(s):**
