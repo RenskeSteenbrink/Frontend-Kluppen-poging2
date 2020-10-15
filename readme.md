@@ -48,13 +48,49 @@ De gekozen website is eigenlijk heel erg saai. Alle complexere elementen en anim
 ### Animaties 
 - Animaties in de knoppen
     Omdat niet alle knoppen een nut hebben in mijn uitwerking (aangezien we maar 2 pagina's doen) en ik de toegankelijkheid al op andere elementen had zitten. wilde ik hier losgaan met animaties. Zo veranderen de knoppen van kleur en groote als je er overheen gaat om je te misleiden dat je er op kunt klikken.
-- 
+- Animatie op de artikelen
+    De artikelen komen naar voren bij een hover en trekken je aandacht. 'Dit wil je zien!'
+
+## Ontwerpkeuzes en uitprobeersels
+
+Ik ben bezig geweest met heel veel uitrprobeersels en heb hierin en in de stijl van de pagina bepaalde keuzes gemaakt. 
+
+### Ontwerpkeuzes
+1. Op de officiele webpagina kun je zien dat er links bovenin een logo wordt vertoont. Dit is helaas niet het juiste logo, maar op het moment dat ik het logo in mijn website wilde verwerken verpeste in keer op keer mijn header waar al veel zweet en tranen in zaten. hierdoor heb ik ervoor gekozen het logo er uit te houden.
+2. De cijfers in de 'ontdeksectie' zijn blauw op de officiele pagina, echter vind ik dit afleiden, niet mooi en doet het mij denken dat je er op kunt klikken, wat niet zo is. Ja ik heb de artikelen geanimeerd dus het lijkt alsnog of je er op kunt klikken, maar de animatie geeft het extra aandacht, terwijl een andere kleur je alleen af leidt van de functie.
+3. De footer is anders ingedeelt dan op de officiele pagina. bij mobiel en de normale pagina staan de elementen in de gebruikelijke volgorde, maar daar tussenin staat het logo en de knop in het midden. De hele website is gecentreerd, aangezien het grid 3 kolommen heeft vond ik het logischer de CTA in het midden te plaatsen aangezien je ogen hier landen. 
+Ook heb ik de footer op mobiel gecentreerd gehouden, het is misplaatst om alleen de footer links uit te lijnen als derest gecentreerd is.
+
+OVER ONS
+4. als je de screenshots van week 1 bekijkt en de huidige pagina, is er een hoop veranderd. Ik heb ervoor gekozen een combinatie van de 2 te doen. Zo heb ik gekozen voor een mooie foto achter de eerste section, maar heb ik de foto bij het klupverhaal weggelaten in bescherming van een overvloed aan beeld.
+5. op de huidige pagina staat nog maar 1 foto bij ht stuk over het magazine en het verbinden, voor de oefening van flexbox en styling van artikelen heb ik hier gekozen om beide foto's bij de text te voegen. 
+6. aangezien het team een grote lijst met dezelfde elementen is hebt ik hier maar 4 van nagemaakt. In de oude versie staat de naam en functie naast het fotootje, in de nieuwe versie staat het in 1 regel. ik heb mijn stoute schoenen aangetrokken en heb alles onder elkaar geplaatst, dit is logischer in de leesvolgorde.
+7. op de officiele site zie je dat de verschillende pagina's verschillende buttons hebben. dit heb ik zelf tot het einde gehad, maar gaf me toch niet genoeg consistentie en kan verwarring opleveren, daarom heb ik ervoor gekozen de buttons consistent door te voeren.
+
+### Uitprobeersels
+1. ik had het idee om op mobiel alleen de afbeeldingen neer te zetten en dan met een hover de text zichtbaar te maken, naast dat het na veel pgingen niet gelukt is, besefte ik me dat je op een mobiel niet kan hoveren en het daarom ook niet echt nut had. 
+2. De website is bedoelt om informatie af te geven, maar ook om sfeer te laten zien. Ik heb getracht de afbeelding in de eerste sectie te laten sliden tussen 3 foto's. ik heb hiervoor tutorials gelezen en ben bezig geweest met een codepen, maar helaas tevergeefs. het was me zo complex dat ik ervoor gekozen heb om me te focussen op de belangrijkere dingen.
+3. over belangrijk gesproken, het hamburger menu op mobiel, een van mijn gelukte uitprobeersels. ik ben bezig geweest met het werkend maken van dit menu en heb ook hier een codepen voor opgezet, helaas is het mij met verschillende tips en video's niet gelukt en heb ik de hulp van jelmer moeten inschakelen die het laatste zetje gaf. alle elementen ook werkend krijgen.
+4. de 'Lees verder' tekst zou uit suggestie van jou eigenlijk naar de volgende sectie navigeren, ondanks ik internet heb afgezocht, code heb geprobeerd te vertalen naar mijn website. is het me niet gelukt om dit werkend te krijgen. Wel leuk dat toen ik dit had geprobeerd alle dingen die wel werkten in mijn website toen ook zijn uitgevallen. 
+dat krijg je van proberen denk ik dan maar.
+
+Al met al heb ik een hoop geprobeerd, heb ik een hoop veranderd, zit er een aantal uren in dat ik nog nooit in een vak heb gestoken, zitten er zweet en tranen in (bloed sla ik over), snap ik de beginselen van programmeren en ondanks dat ik stiekem momentjes heb genoten van het schrijven van code, weet ik niet of het iets voor mij is, sorry Janno, je hebt het geprobeerd, je enthousiasme is echt heel aanstekelijk, maar mentaal denk ik niet sterk genoeg te zijn voor dit vak en ben ik bang dat mijn laptop binnen een paar dagen vliegles krijgt...
 
 # GESPREKKEN & VOORTGANGEN #
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+GOED
+- Ik snap alle theorie die we in de lessen hebben geleerd
+- De huiswerkopdrachten zijn over het algemeen succesvol geweest
+- Ik heb dingen gemaakt waarvan ik nooit had gedacht dat ik dat zou kunnen
+- Ik heb momenten gehad waarop ik heel blij was (dit is bijzonder voor mij tijdens frontend maken)
+- Ik denk dat ik mezelf heb overtroffen, ik stel dit vak al 4 jaar uit omdat ik een knoop in mijn maag kreeg als ik dacht aan code schrijven, en die knoop is weg.
+
+LASTIG
+- Aanpasbaarheid, steeds als ik 1 ding heb aangepast gaat alles weer kapot.
+- Het vinden van fouten. Ik kan mijn problemen nog niet zelfstandig oplossen.
+- Er waren momenten dat je denkt de theorie te weten en dan weer naar je eigen code kijkt en het gewoon onmogelijk kan toepassen. In dat geval had persoonlijk contact heel veel geholpen, maar die heb je nu natuurlijk niet, dus dat is gewoon erg lastig.
 
 **Screenshot(s):**
 
