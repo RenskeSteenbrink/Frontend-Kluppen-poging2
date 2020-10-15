@@ -117,7 +117,7 @@ body {
 /**********************/
 /* LAYOUT VAN BUTTONS */
 /**********************/
-.html button {
+button {
   background-color: #0065bb;
   padding: 1.1em;
   border-radius: .5em;
@@ -125,20 +125,6 @@ body {
   padding: 1em;
 
   color: white;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.overOns button {
-  margin-left: 10vw;
-  background-color: transparent;
-  padding: 1.1em;
-  border-radius: .5em;
-  border: .2em solid #0065bb;
-
-  color: #0065bb;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -189,15 +175,16 @@ h4 {
 
 h5 {
   font-size: 1em;
-  font-weight: 600;
-  padding: 1rem;
+  font-weight: 300;
+  padding: 0.1rem;
+  text-transform: uppercase;
 
 }
 
 p {
   font-size: 18px;
   font-weight: 300;
-  Padding: 1em;
+  Padding: 1rem;
   }
 
 a {
@@ -369,7 +356,7 @@ section div article h4,h3,p {
     }
     
     100% {
-      transform: scale(1.1);
+      transform: scale(1.01);
       
     }
   }
@@ -388,7 +375,7 @@ section div article h4,h3,p {
 /*****************/
 
 .html section:nth-child(3) { 
-  background-image: url("../images/Ebikes.JPG");
+  background-image: url("/images/Ebikes.JPG");
   background-size: cover;
   height: 30vh;
   background-position: center;
@@ -443,12 +430,6 @@ section div article h4,h3,p {
   padding: 1em;
   margin: auto;
   text-shadow: .009em .009em .08em #161616;
-}
-
-.overOns section:nth-child(1) button  {
-  border: .2em solid #ffffff;
-  color: white;
-  box-shadow: .09em .09em .08em #161616;
 }
 
 @media (min-width: 415px) {
@@ -565,12 +546,30 @@ section div article h4,h3,p {
 }
 
 .overOns div button {
+  background-color: transparent;
   display: block;
   margin: auto;
   border: .2em solid #000000;
   color: black;
 }
 
+@keyframes socialeDroomButton {
+  0% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(1.05);
+    background: #000000;
+    color: #ffffff;
+  }
+}
+#blackButton:hover { 
+  animation-name:socialeDroomButton;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
 /*********************/
 /* TEAMLEDEN SECTION */
 /*********************/
@@ -672,7 +671,11 @@ input[type="password"] {
     width: 60%;
     padding: 1em;
   }
-  .aanmelden h2, p, label{
+  .aanmelden h2, label{
+    width: 60%;
+    margin: 0.5em auto;
+  }
+  .aanmelden p{
     width: 60%;
     margin: 0.5em auto;
   }
@@ -816,6 +819,12 @@ footer ul {
     width: 90%;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
+  }
+  footer div ul:nth-child(1) { 
+    order: 1;
+  }
+  footer div ul:nth-child(2) { 
+    order: 2;
   }
 
   footer div ul:nth-child(4) {
