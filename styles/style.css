@@ -471,6 +471,9 @@ section div article h4,h3,p {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 90%;
+    margin: auto;
+    padding-top: 2em; padding-bottom: 2em;
   } 
 }
 
@@ -483,7 +486,7 @@ section div article h4,h3,p {
 
 @media (min-width: 1080px) {
   .overOns section:nth-child(2) {
-    max-width: 90%;
+    max-width: 70%;
   }
 }
 /******************************/
@@ -494,6 +497,7 @@ section div article h4,h3,p {
   flex-direction: column;
   width: 90%;
   margin: 0 auto;
+  padding-top: 2em; padding-bottom: 2em;
 }
 .overOns section:nth-child(3) article {
   text-align: center;
@@ -535,7 +539,7 @@ section div article h4,h3,p {
     margin: 4em auto;
   }
   .overOns section:nth-child(3) article p {
-    width: 100%;
+    width: 80%;
   }
 }
 /*****************/
@@ -604,9 +608,10 @@ section div article h4,h3,p {
 @media (min-width: 1080px) {
   .overOns section:nth-child(5) {
     width: 80%;
+    padding-top: 3em; padding-bottom: 3em;
   }
   .overOns section:nth-child(5) article p {
-    width: 100%;
+    width: 80%;
   }
 }
 
