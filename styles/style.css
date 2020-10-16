@@ -26,7 +26,7 @@ body {
   }
 
   .showMenu {
-    background-color: #0065bb;
+    background-color: #f6f6f6;
     position: fixed;
     top:0 ;
     width: 100%;
@@ -39,14 +39,18 @@ body {
   }
 
   header li a {
-    color: white;
+    color: #0065bb;
     font-size: 2em;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 300;
+  }
+
+  header div {
+    margin-top: 45%;
   }
 
   header li {
-    margin: 5em auto;
+    padding: 1em;
     display: none;
   }
 
@@ -81,7 +85,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    max-width: 90%;
+    max-width: 95%;
     margin: 1em auto;
   }
 
@@ -99,32 +103,21 @@ body {
   header nav img {
     display: none;
   }
-
-  header button {
-    background-color: #0065bb;
-    padding: 1.1em;
-    border-radius: .5em;
-    border: none;
-    padding: 1em;
-
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    text-decoration: none;
-  }
 }
 
 /**********************/
 /* LAYOUT VAN BUTTONS */
 /**********************/
 button {
-  background-color: #0065bb;
+  background-color: #ffb413;
   padding: 1.1em;
   border-radius: .5em;
   border: none;
   padding: 1em;
+  box-shadow: .09em .09em .08em #161616;
+  width: 12em;
 
-  color: white;
+  color: #000000;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -154,7 +147,7 @@ button:hover {
 /*****************/
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 900;
 }
 
@@ -183,6 +176,7 @@ h5 {
 
 p {
   font-size: 18px;
+  line-height: 1.5rem;
   font-weight: 300;
   Padding: 1rem;
   }
@@ -206,7 +200,7 @@ a:hover {
 }
 
 a:focus {
-  background-color: #ffd16d;
+  background-color: #f6f6f6;
   text-decoration: underline;
 }
 
@@ -300,7 +294,7 @@ section a:first-of-type {
 .html article img {
   margin: auto;
   display: flex;
-  width: 100%;
+  width: 80%;
 }
 
 .html section article {
@@ -334,6 +328,10 @@ section div article h4,h3,p {
     width: 100%;
     text-align: center;
   }
+
+  .html article img {
+    width: 90%
+  }
 }
 
 @media (min-width: 900px){
@@ -347,15 +345,20 @@ section div article h4,h3,p {
   .html section article {
     width: 100vw;
   }
+  .html article img {
+    width: 100%
+  }
 }
 @media (min-width: 1150px){
   .html section:nth-child(2),section:nth-child(4) {
     max-width: 70%;
     margin: auto;
   }
+  .html article {
+    max-width: 300px;
+  }
 }
   
- 
   @keyframes ontdek {
     0% {
       transform: scale(1);
@@ -373,37 +376,34 @@ section div article h4,h3,p {
     animation-iteration-count: 2;
   }
 
-
-
-
 /*****************/
 /* QUOTE SECTION */
 /*****************/
-
 .html section:nth-child(3) { 
-  background-image: url("./images/Ebikes.JPG");
+  background-image: url("/images/Ebikes.png");
   background-size: cover;
   height: 30vh;
   background-position: center;
-  opacity: .7;
 } 
 
 .html section:nth-child(3) p{
     text-align: center;
     color: #ffffff;
     text-shadow: .009em .009em .08em #666666;
-    font-size: 1em;
+    font-size: 1.3em;
     font-weight: 800;
-    margin: 2em auto;
+    margin: 1em auto;
     
 }
 
 @media (min-width: 415px) {
   .html section:nth-child(3) p{
+    padding-top: 3%;
     text-align: center;
     color: #ffffff;
     text-shadow: .009em .009em .08em #666666;
     font-size: 1.5em;
+    line-height: normal;
     font-weight: 800;
     width: 80%;
     margin: 1.1em auto;  
@@ -424,7 +424,7 @@ section div article h4,h3,p {
 /*************************/
 
 .overOns section:nth-child(1) {
-  background-image: url(https://kluppen.nl/wp-content/uploads/2020/09/Klup-Team-Over-Ons.png.jpg);
+  background-image: url('/images/OverOns/Klup-Team-Over-Ons.png');
   background-size: cover;
   background-position: center;
   height: 70vh;
@@ -465,6 +465,9 @@ section div article h4,h3,p {
 /***********************/
 /* KLUPVERHAAL SECTION */
 /***********************/
+.overOns section:nth-child(2) {
+  padding-top: 2em;
+} 
 
 @media (min-width: 415px) {
   .overOns section:nth-child(2) {
@@ -473,7 +476,6 @@ section div article h4,h3,p {
     flex-wrap: wrap;
     max-width: 90%;
     margin: auto;
-    padding-top: 2em; padding-bottom: 2em;
   } 
 }
 
@@ -486,7 +488,7 @@ section div article h4,h3,p {
 
 @media (min-width: 1080px) {
   .overOns section:nth-child(2) {
-    max-width: 70%;
+    max-width: 70%; 
   }
 }
 /******************************/
@@ -497,7 +499,7 @@ section div article h4,h3,p {
   flex-direction: column;
   width: 90%;
   margin: 0 auto;
-  padding-top: 2em; padding-bottom: 2em;
+  padding-top: 2em; padding-bottom: 4em;
 }
 .overOns section:nth-child(3) article {
   text-align: center;
@@ -507,7 +509,7 @@ section div article h4,h3,p {
   padding: .5em;
 }
 .overOns section:nth-child(3) img {
-  max-width: 100%;
+  max-width: 90%;
   height: 300px;
   object-fit: cover;
 }
@@ -548,7 +550,7 @@ section div article h4,h3,p {
 
 .overOns main div{
   background-color: #ffb413;
-  padding: 4em;
+  padding: 2em;
 }
 
 .overOns div h3 {
@@ -583,6 +585,9 @@ section div article h4,h3,p {
 /*********************/
 /* TEAMLEDEN SECTION */
 /*********************/
+.overOns section:nth-child(5) {
+  padding-top: 2em; padding-bottom: 3em;
+}
 .overOns section:nth-child(5) article{
   text-align: center;
   margin: 1em auto;
@@ -608,7 +613,7 @@ section div article h4,h3,p {
 @media (min-width: 1080px) {
   .overOns section:nth-child(5) {
     width: 80%;
-    padding-top: 3em; padding-bottom: 3em;
+    padding-top: 4em; padding-bottom: 5em;
   }
   .overOns section:nth-child(5) article p {
     width: 80%;
@@ -708,7 +713,7 @@ input:focus {
 
 footer {
   background-color: #f6f6f6;
-  padding-top: 1em; padding-bottom: 1em;
+  padding-top: 4em; padding-bottom: 4em;
 }
 
 .logo {
@@ -716,7 +721,7 @@ footer {
   background-size: cover;
   height: 100px;
   width: 100px;
-  margin: 0 auto;
+  margin: 0 4em;
 }
 
 footer div ul {
@@ -725,30 +730,31 @@ footer div ul {
   padding-left: 0;
 }
 
-footer div ul li p:first-child {
-  margin: 0;
-  padding-top: 0;
+footer div ul:nth-child(1) li p {
+  margin: 0 ;
+  padding-top: 0.5em;
+  padding-left: 1.8em;
 }
 
 .html footer button {
-  background-color: #ffb413;
-  color: #000000;
-  padding: 1.1em;
   border: none;
-  box-shadow: .09em .09em .08em #161616;
 }
 
 .overOns footer button {
   background-color: #ffb413;
   border: none;
-  
+  margin: 0;
 }
 
 footer div ul li {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  
+  padding: 0 2rem;
+}
+
+footer div ul li img {
+  max-width: 7rem;
 }
 
 footer div ul li:nth-child(1) a{ 
@@ -757,12 +763,11 @@ footer div ul li:nth-child(1) a{
 }
 
 footer div ul li a {
-  padding: .2em;
+  padding: .4em;
 }
 
 footer div ul li p {
-  padding: 1.5em;
-  text-align: center;
+  text-align: left;
 
 }
 
@@ -798,17 +803,22 @@ footer ul {
     justify-content: flex-start;
     margin-left: 2em;
     max-width: 80%;
+    padding: 0;
   }
   footer div ul:nth-child(1) {
-    display: block;
-    margin: auto;
-    margin-left: 2em;
+    display: flex;
+    align-items: center;
   }
-  footer div ul:nth-child(1) li:nth-child(1) {
-    margin-left: 2.5em;
+
+  footer div ul:nth-child(1) li{
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
   }
-  footer div ul:nth-child(1) p{
-    padding: 1em 0;
+
+  footer div ul:nth-child(1) li p {
+    margin: 0 ;
+    padding-left: 0;
   }
 
   footer ul:nth-child(4) {
@@ -820,7 +830,6 @@ footer ul {
   footer ul:nth-child(4) li {
     margin-left: 0;
   }
-
 }
 
 /* LAPTOP */
