@@ -424,7 +424,7 @@ section div article h4,h3,p {
 /*************************/
 
 .overOns section:nth-child(1) {
-  background-image: url('../images/OverOns/Klup-Team-Over-Ons.png');
+  background-image: url('/images/OverOns/Klup-Team-Over-Ons.png');
   background-size: cover;
   background-position: center;
   height: 70vh;
