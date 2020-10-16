@@ -40,7 +40,7 @@ De gekozen website is eigenlijk heel erg saai. Alle complexere elementen en anim
 - Typografie in de footer
     Hier wist ik al dat het lastig zou worden. de eerste li's van elke ul moesten groter en dikker gedrukt. Hier had ik het een en het ander aan moeite met pseudoselectoren en dat het niet wilde lukken. maar uiteindelijk is het gelukt en geeft het een duidelijke hierarchie af. zeker van toegevoegde waarde.
 - Responsiveness in de eerste section
-    Deze section was een drama. Het is natuurlijk het eerste waarop je binnenkomt, dus het moest echt goed en mooi werken. Hier ben ik heel druk bezig gegaan met mediaqueries om te zorgen dat dit zo soepel mogelijk verliep.
+    Deze section was een drama. Het is natuurlijk het eerste waarop je binnenkomt, dus het moest echt goed en mooi werken. Hier ben ik heel druk bezig gegaan met mediaqueries om te zorgen dat dit zo soepel mogelijk verliep. Daarnaast ben ik ook nog bezig geweest met het consistent doorvoeren naar de 2e pagina die minder elementen heeft.
 - toegankelijkheid op de Elementen
     Zoals eerder benoemd heb ik in het Form veel aandacht besteeds aan de toegankelijkheid. Alle elementen op de homepagina staan in een logische volgorde en ook de linkjes zijn toegankelijk gemaakt.
 - toegankelijkheid in contrast en grootte
@@ -53,22 +53,30 @@ De gekozen website is eigenlijk heel erg saai. Alle complexere elementen en anim
 
 ## Ontwerpkeuzes en uitprobeersels
 
-Ik ben bezig geweest met heel veel uitrprobeersels en heb hierin en in de stijl van de pagina bepaalde keuzes gemaakt. 
+Ik ben bezig geweest met heel veel uitprobeersels en heb hierin en in de stijl van de pagina bepaalde keuzes gemaakt. 
 
 ### Ontwerpkeuzes
 1. Op de officiele webpagina kun je zien dat er links bovenin een logo wordt vertoont. Dit is helaas niet het juiste logo, maar op het moment dat ik het logo in mijn website wilde verwerken verpeste in keer op keer mijn header waar al veel zweet en tranen in zaten. hierdoor heb ik ervoor gekozen het logo er uit te houden.
+De mobiele header zit in een hamburgermenu, als deze openklapt gaat hij over het hele scherm en is de tekst groot. De kleuren komen uit de originele huiskleur. dit heb ik gedaan om alles zo rustig mogelijk te houden voor je ogen. ook veranderd de hamburger in een kruisje zodat je snapt dat je er zo weg kan.
 2. De cijfers in de 'ontdeksectie' zijn blauw op de officiele pagina, echter vind ik dit afleiden, niet mooi en doet het mij denken dat je er op kunt klikken, wat niet zo is. Ja ik heb de artikelen geanimeerd dus het lijkt alsnog of je er op kunt klikken, maar de animatie geeft het extra aandacht, terwijl een andere kleur je alleen af leidt van de functie.
 3. De footer is anders ingedeelt dan op de officiele pagina. bij mobiel en de normale pagina staan de elementen in de gebruikelijke volgorde, maar daar tussenin staat het logo en de knop in het midden. De hele website is gecentreerd, aangezien het grid 3 kolommen heeft vond ik het logischer de CTA in het midden te plaatsen aangezien je ogen hier landen. 
-Ook heb ik de footer op mobiel gecentreerd gehouden, het is misplaatst om alleen de footer links uit te lijnen als derest gecentreerd is.
 4. Ik heb mijn website door mijn vriendengroep laten bekijken en heb hieruit de volgende feedback meegenomen:
 - meer witruimtes om de sections heen.
-- 
+- Ik zou je google play button zelfde breedte geven als de app store. 
+- Tekst in de footer kleiner en iets meer padding tussen. / dit heb ik niet gedaan, aangezien het voor de doelgroep belangrijk is dat de tekst net iets groter blijft en leesbaar, wel heb ik de padding vergroot.
+- Wordt clublid button voelt voor mij een rare plek maar kan aan mij liggen, zoud die copyright tekst erboven ook iets meer ruimte geven
+- de tekst onder de telefoons mag ook nog wel wat kleiner wat mij betreft / ook hier weer de leesbaarheid voor de doelgroep op minimaal 18px gehouden.
+5. ik heb de afbeeldingen een blauw filter gegeven, dit wordt bij meerder foto's gedaan bij dit bedrijf en zorgt voor consistentie en duidelijker contrast tussen de tekst en afbeelding. 
+6. Alle knoppen heb ik uiteindelijk geel gemaakt. In het nieuwe design waar ik mee bezig ben heb ik afgesproken dat de CTA knoppen geel moeten zijn zodat mensen weten dat dit belangrijk is. Vandaar dat ik veel knoppen heb weggelaten en er een paar, maar meer opvallende voor heb teruggeplaatst.
+
+Deze feedback is verwerkt in mijn eindresultaat en zorgt voor een overzichtelijke en mooie pagina.
 
 OVER ONS
-4. als je de screenshots van week 1 bekijkt en de huidige pagina, is er een hoop veranderd. Ik heb ervoor gekozen een combinatie van de 2 te doen. Zo heb ik gekozen voor een mooie foto achter de eerste section, maar heb ik de foto bij het klupverhaal weggelaten in bescherming van een overvloed aan beeld.
-5. op de huidige pagina staat nog maar 1 foto bij ht stuk over het magazine en het verbinden, voor de oefening van flexbox en styling van artikelen heb ik hier gekozen om beide foto's bij de text te voegen. 
-6. aangezien het team een grote lijst met dezelfde elementen is hebt ik hier maar 4 van nagemaakt. In de oude versie staat de naam en functie naast het fotootje, in de nieuwe versie staat het in 1 regel. ik heb mijn stoute schoenen aangetrokken en heb alles onder elkaar geplaatst, dit is logischer in de leesvolgorde.
-7. op de officiele site zie je dat de verschillende pagina's verschillende buttons hebben. dit heb ik zelf tot het einde gehad, maar gaf me toch niet genoeg consistentie en kan verwarring opleveren, daarom heb ik ervoor gekozen de buttons consistent door te voeren.
+7. als je de screenshots van week 1 bekijkt en de huidige pagina, is er een hoop veranderd. Ik heb ervoor gekozen een combinatie van de 2 te doen. Zo heb ik gekozen voor een mooie foto achter de eerste section, maar heb ik de foto bij het klupverhaal weggelaten in bescherming van een overvloed aan beeld.
+8. op de huidige pagina staat nog maar 1 foto bij ht stuk over het magazine en het verbinden, voor de oefening van flexbox en styling van artikelen heb ik hier gekozen om beide foto's bij de text te voegen. 
+9. aangezien het team een grote lijst met dezelfde elementen is hebt ik hier maar 4 van nagemaakt. In de oude versie staat de naam en functie naast het fotootje, in de nieuwe versie staat het in 1 regel. ik heb mijn stoute schoenen aangetrokken en heb alles onder elkaar geplaatst, dit is logischer in de leesvolgorde.
+10. op de officiele site zie je dat de verschillende pagina's verschillende buttons hebben. dit heb ik zelf tot het einde gehad, maar gaf me toch niet genoeg consistentie en kan verwarring opleveren, daarom heb ik ervoor gekozen de buttons consistent door te voeren.
+11. last but not least, de animaties. Ik heb ervoor gekozen om naast de animaties op de buttons geen animaties toe te voegen. De animaties zouden hier geen functie hebben en alleen verwarring geven. Daarbij zeggende wil ik ook meteen toelichten dat ik wel onnodige animaties heb op de homepage omdat ik toch wil laten zien wat ik kan en het kan vallen onder aandacht vestigen voor dit onderwerp.
 
 ### Uitprobeersels
 1. ik had het idee om op mobiel alleen de afbeeldingen neer te zetten en dan met een hover de text zichtbaar te maken, naast dat het na veel pgingen niet gelukt is, besefte ik me dat je op een mobiel niet kan hoveren en het daarom ook niet echt nut had. 
@@ -96,7 +104,11 @@ LASTIG
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![Homepagina](images/Procescaptures/Eindresultaat home.png)
+
+![Over ons Pagina](images/Procescaptures/Eindresultaat oveOns.png)
+
+![Aanmeld pagina](images/Procescaptures/aanmelden.png)
 
 
 
