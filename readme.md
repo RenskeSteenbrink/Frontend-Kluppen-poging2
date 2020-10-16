@@ -72,7 +72,8 @@ De mobiele header zit in een hamburgermenu, als deze openklapt gaat hij over het
 Deze feedback is verwerkt in mijn eindresultaat en zorgt voor een overzichtelijke en mooie pagina.
 
 OVER ONS
-7. als je de screenshots van week 1 bekijkt en de huidige pagina, is er een hoop veranderd. Ik heb ervoor gekozen een combinatie van de 2 te doen. Zo heb ik gekozen voor een mooie foto achter de eerste section, maar heb ik de foto bij het klupverhaal weggelaten in bescherming van een overvloed aan beeld.
+
+7. Als je de screenshots van week 1 bekijkt en de huidige pagina, is er een hoop veranderd. Ik heb ervoor gekozen een combinatie van de 2 te doen. Zo heb ik gekozen voor een mooie foto achter de eerste section, maar heb ik de foto bij het klupverhaal weggelaten in bescherming van een overvloed aan beeld.
 8. op de huidige pagina staat nog maar 1 foto bij ht stuk over het magazine en het verbinden, voor de oefening van flexbox en styling van artikelen heb ik hier gekozen om beide foto's bij de text te voegen. 
 9. aangezien het team een grote lijst met dezelfde elementen is hebt ik hier maar 4 van nagemaakt. In de oude versie staat de naam en functie naast het fotootje, in de nieuwe versie staat het in 1 regel. ik heb mijn stoute schoenen aangetrokken en heb alles onder elkaar geplaatst, dit is logischer in de leesvolgorde.
 10. op de officiele site zie je dat de verschillende pagina's verschillende buttons hebben. dit heb ik zelf tot het einde gehad, maar gaf me toch niet genoeg consistentie en kan verwarring opleveren, daarom heb ik ervoor gekozen de buttons consistent door te voeren.
@@ -104,9 +105,9 @@ LASTIG
 
 **Screenshot(s):**
 
-![Homepagina](images/Procescaptures/Eindresultaat home.png)
+![Homepagina](images/Procescaptures/Eindresultaathome.png)
 
-![Over ons Pagina](images/Procescaptures/Eindresultaat oveOns.png)
+![Over ons Pagina](images/Procescaptures/EindresultaatoverOns.png)
 
 ![Aanmeld pagina](images/Procescaptures/aanmelden.png)
 
