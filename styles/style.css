@@ -380,7 +380,7 @@ section div article h4,h3,p {
 /* QUOTE SECTION */
 /*****************/
 .html section:nth-child(3) { 
-  background-image: url("/images/Ebikes.png");
+  background-image: url("images/Ebikes.png");
   background-size: cover;
   height: 30vh;
   background-position: center;
