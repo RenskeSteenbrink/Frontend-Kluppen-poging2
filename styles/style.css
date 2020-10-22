@@ -16,13 +16,21 @@ body {
 
 
 @media (max-width: 545px) {
-  
   header nav{
+    background-color: #f6f6f6;
     position: fixed;
     top:0 ;
     width: 100%;
+    height: 3em;
     text-align: center;
-    transform: translateX(0%); /* dit moet nog -100 worden, maar dan zie ik niets */
+  }
+
+  header li a{
+    display: none;
+  }
+
+  .hide {
+    display: none;
   }
 
   .showMenu {
@@ -34,46 +42,43 @@ body {
     text-align: center;
   }
 
-  .showMenu li {
+  .showMenu li a{
+    display: block;
+    color: #0065bb;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 1em;
+  }
+
+  .showMenu header nav>a:last-of-type {
     display: block;
   }
 
-  header li a {
-    color: #0065bb;
-    font-size: 2em;
-    text-transform: uppercase;
-    font-weight: 300;
-  }
-
-  header div {
+  header ul {
     margin-top: 45%;
+    padding-left: 0;
   }
 
-  header li {
-    padding: 1em;
-    display: none;
-  }
-
-  header button:nth-child(1){
-    background-color: #ffb413;
-    color: #000000;
-    height: 3em;
-    font-size: 0.7em;
-    box-shadow: #181818c0 0.1em 0.1em;
-  }
-
-  header>nav>a {
+  header>nav>a:first-of-type{
     position: absolute;
-    padding: 1em;
+    padding: 0.4em;
     top: 0;
     right: 0;
     width: 4em;
   }
 
+  header>nav>a:nth-child(2){
+    position: absolute;
+    padding: 0.4em;
+    top: 0;
+    left: 0;
+    width: 4em;
+  }
   header>nav>a:focus {
     background: none;
   }
-  
+
   header a img {
     width: 2em;
   }
@@ -83,15 +88,13 @@ body {
 
   header nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between; 
     max-width: 95%;
     margin: 1em auto;
   }
 
-  header nav div {
+  header nav ul {
     display: flex; /* Zet de navigatie elementen naast elkaar */
-    margin: auto; /* Zorgt ervoor dat er ruimte om deze elementen komt, waardoor de blauwe button naar rechts verschuift */
+    margin: auto; /* Zorgt ervoor dat er ruimte om deze elementen komt, waardoor de gele button naar rechts verschuift */
   }
   
   header nav li {
@@ -103,44 +106,6 @@ body {
   header nav img {
     display: none;
   }
-}
-
-/**********************/
-/* LAYOUT VAN BUTTONS */
-/**********************/
-button {
-  background-color: #ffb413;
-  padding: 1.1em;
-  border-radius: .5em;
-  border: none;
-  padding: 1em;
-  box-shadow: .09em .09em .08em #161616;
-  width: 12em;
-
-  color: #000000;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-
-@keyframes buttons {
-  0% {
-    transform: scale(1);
-  }
-  
-  100% {
-    transform: scale(1.05);
-    background: #ffb413;
-    color: #000000;
-  }
-}
-button:hover { 
-  animation-name:buttons;
-  animation-duration: 0.5s;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
 }
 /*****************/
 /* ALGEMENE TEXT */
@@ -191,6 +156,59 @@ li {
   list-style: none;
 }
 
+/**********************/
+/* LAYOUT VAN BUTTONS */
+/**********************/
+header nav>a:last-of-type{
+  background-color: #ffb413;
+  padding: 0.7em;
+  border-radius: .5em;
+  border: none;
+  box-shadow: .09em .09em .08em #161616;
+  width: 10em;
+
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ffb413;
+  padding: 1.1em;
+  border-radius: .5em;
+  border: none;
+  padding: 1em;
+  box-shadow: .09em .09em .08em #161616;
+  width: 12em;
+
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+@keyframes buttons {
+  0% {
+    transform: scale(1);
+  }
+  
+  100% {
+    transform: scale(1.05);
+    background: #ffb413;
+    color: #000000;
+  }
+}
+button:hover { 
+  animation-name:buttons;
+  animation-duration: 0.5s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
 /******************/
 /*Toegankelijkheid*/
 /******************/
@@ -642,6 +660,9 @@ section div article h4,h3,p {
   border-radius: .5em;
 }
 
+.aanmelden a{
+  position: absolute;
+}
 @media (min-width: 690px) {
   .aanmelden form {
   max-width: 50%;
